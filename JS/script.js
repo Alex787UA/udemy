@@ -1,9 +1,9 @@
 "use strict";
 const numberOfFilms = +prompt("Сколько фильмов ты посмотрел?", "");
 const a = prompt("Какой твой последний фильм?", "");
-const b = prompt("Оцени фильм", "");
+const b = prompt("Оцени свой фильм", "");
 const c = prompt("Какой твой последний фильм?", "");
-const d = prompt("Оцени фильм", "");
+const d = prompt("Оцени свой фильм", "");
 // console.log (lastFilm);
 // console.log(numberOfFilms);
 // console.log(filmRate); 
