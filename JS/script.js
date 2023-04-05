@@ -1,12 +1,22 @@
 "use strict";
+const numberOfFilms = +prompt("Сколько фильмов ты посмотрел?", "");
+const a = prompt("Какой твой последний фильм?", "");
+const b = prompt("Оцени фильм", "");
+const c = prompt("Какой твой последний фильм?", "");
+const d = prompt("Оцени фильм", "");
+// console.log (lastFilm);
+// console.log(numberOfFilms);
+// console.log(filmRate); 
 
-// const arr = [1,2,3,4];
 
-// console.log( arr[1]);
-const arr = ["a","b", "c"];
-const arrObj = {
+let personalMovieDB = {
+     count: numberOfFilms,
+     movies: {},
+     actors: {},
+     genres: [],
+     privat: false
 
-    0: "a",
-    1: "b",
-    2: "c"
 };
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+console.log(personalMovieDB);
